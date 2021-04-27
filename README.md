@@ -31,7 +31,7 @@ Se não, ignorá-la e ir para nova leitura de palavras.
 
 - a divisão do programa em módulos, fica a cargo de cada equipe.
 
-      Avaliação:
+    Avaliação:
 
 deverá executar corretamente;
 deverá atender o que se pede;
