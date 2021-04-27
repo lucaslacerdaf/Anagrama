@@ -3,20 +3,19 @@ Projeto acadêmico do 1º Semestre: Jogo de Anagrama
 
 Exemplo tirado do site Racha Cuca: https://rachacuca.com.br/palavras/anagramas/
 
-No exemplo foram utilizadas as variáveis:
+    No exemplo foram utilizadas as variáveis:
 char letras []= {'O','N','C','C','E','N','M','T','H','O','E','I'};
 char palavra [13];
 char BancoPalavras [20][13] = {"CONHECIMENTO","CIMENTO","CINTO","NETO","OI","MENTE","CONTO"};
 char BancoAcertos [20][13];
 
-Descrição:
+    Descrição:
 
 Conjunto de letras (partir de uma palavra com mais de 5 letras embaralhadas) – sugestão: utilizar um vetor de caracteres contendo as letras;
 Banco de Palavras possíveis, formadas pelas letras do conjunto (pelo menos 10 palavras) – sugestão: utilizar um VETOR de STRING;
 Sugestão: utilizar outro Vetor de String: Banco de Acertos, para registrar as palavras já encontradas. Livre para escolherem outra forma de controlar os acertos.
  
-
-INÍCIO:
+    INÍCIO:
 
 - uma palavra é digitada:
 
@@ -26,14 +25,13 @@ Se sim, ignorá-la e ir para nova leitura de palavra;
 Se não, incluí-la em Acertos e ir para nova leitura;
 Se não, ignorá-la e ir para nova leitura de palavras.
  
+    Observações:
 
-Observações:
-
--  manter sempre visíveis: AS LETRAS e os Acertos;
+-manter sempre visíveis: AS LETRAS e os Acertos;
 
 - a divisão do programa em módulos, fica a cargo de cada equipe.
 
-Avaliação:
+      Avaliação:
 
 deverá executar corretamente;
 deverá atender o que se pede;
